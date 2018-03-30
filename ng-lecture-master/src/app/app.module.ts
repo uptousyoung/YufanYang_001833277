@@ -1,5 +1,4 @@
-;
-import { FooterComponent } from './footer/footer.component'//Modules
+//Modules
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
@@ -10,7 +9,7 @@ import { StickyAreaComponent } from './sticky-area/sticky-area.component';
 import { StickyComponent } from './sticky/sticky.component';
 //Services
 import { StickyService } from './services/sticky.service';
-import { [footer]Component } from './[footer]/[footer].component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,7 @@ import { [footer]Component } from './[footer]/[footer].component';
     NavBarComponent,
     StickyAreaComponent,
     StickyComponent,
-    [footer]Component, FooterComponent
+     FooterComponent
   ],
   imports: [
     BrowserModule,
